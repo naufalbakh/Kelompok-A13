@@ -1,0 +1,117 @@
+* {
+  
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(da.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+
+}
+
+.logo a{
+    font-size: 50px;
+    width: 180px;
+    height: auto;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    color:#e9ebec;
+}
+
+
+.navbar {
+    max-width: 1200px;
+    margin:auto;
+
+}
+
+ ul{
+    margin-top:35px;
+    float:right;
+}
+
+ ul li{
+    display: inline-block;
+}
+
+ ul li a{
+   text-decoration: none;
+   color:#fff;
+   padding: 5px 20px;
+   border: 2px solid #fff;
+   border-radius: 20px;
+   transition: 0.6s;
+   margin: 10px;
+   font-size: 12px;
+   font-weight: bold;
+
+}
+
+ ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}ul li.active a{
+    background-color: #fff;
+    color:black;
+}
+
+.contents{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+.contents h1{
+    color:#fff;
+    font-size:70px;
+    text-shadow: -2px 2px 4px #000;
+    
+}
+.color {
+    color: yellow;
+}
+
+.contents p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right:400px;
+    
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: red;
+    margin-left: 120px;
+}
+.btn:hover{
+    background-color: blue;
+    color:#fff;
+}
