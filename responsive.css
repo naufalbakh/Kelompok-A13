@@ -1,24 +1,39 @@
-/* Tablet */
-@media all and (max-width: 1000px) {
- .top-wrapper h1 {
-   font-size: 25px;
- }
-
- .col {
-   width: 50%;
-   margin-bottom: 50px;
- }
-
- .heading h2 {
-   font-size: 20px;
- }
-
- .footer-section {
-  width: 50%;
- }
+/*responsive*/
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
-/* Smartphone */
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 25px;
+  }
+
+  .col {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .card-medium {
+    width: 80%;
+    margin: 0 auto;
+    height: 570px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .footer-section {
+    width: 50%;
+  }
+}
+
+/* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
@@ -44,24 +59,43 @@
     margin-bottom: 10px;
   }
   .btn {
-  width: 100%;
-}
+    width: 100%;
+  }
   .btn-wrapper {
-   text-align: center;
- }
+    text-align: center;
+  }
 
- .top-wrapper {
-   text-align: left;
- }
- .col {
-   width: 100%;
- }
-  
+  .top-wrapper {
+    text-align: left;
+  }
+  .col {
+    width: 100%;
+  }
+  .card-medium {
+    width: fit-content;
+  }
+
   .body {
-  flex-direction: column;
- }
- 
- .footer-section {
-   width: 100%;
- }
+    flex-direction: column;
+  }
+
+  .contact h3 {
+    font-size: 24px;
+    text-align: left;
+    line-height: 36px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
 }
