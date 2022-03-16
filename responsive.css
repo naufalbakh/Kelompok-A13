@@ -56,15 +56,4 @@
   .body {
   flex-direction: column;
  }
-    
-     footer{
-    position: relative;
-  }
-  footer .content .box{
-    width: 100%;
-    margin-top: 30px;
-  }
-  footer .content .middle{
-    padding-left: 0;
-  }
 }
