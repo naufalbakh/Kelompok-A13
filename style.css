@@ -1,5 +1,5 @@
 /* Mulai code Anda dari baris terakhir */
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -23,6 +23,7 @@ div {
 
 body {
   font-family: "Poppins";
+  flex-wrap: wrap;
 }
 
 a {
@@ -169,7 +170,7 @@ header {
 
 button {
   background-color: orange;
-  padding: 10px;
+  padding: 15px;
   border-radius: 20px;
   border-color: grey;
 }
@@ -237,7 +238,7 @@ li:hover {
   padding: 10px 24px;
 }
 
-.card-action a:hover{
+.card-action a:hover {
   background-color: #00534a;
   transition: 1s;
 }
@@ -257,7 +258,6 @@ li:hover {
   font-size: 14px;
   font-weight: bold;
   padding: 24px;
-
 }
 
 .makebold {
@@ -276,26 +276,163 @@ li:hover {
   border-radius: 6px;
 }
 
+#contact {
+  background: #dedede;
+  padding: 50px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  background: #2f7772;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto; /*Auto, emmbawa konten ke center*/
+}
+
+.footer-section h3{
+  color: white;
+}
+
+.footer-section p{
+  color: white;
+}
+
+.wrapper{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .wrapper p,a{
+  color: #fff;
+}
+.footer .wrapper .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+.footer .wrapper .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+.footer .wrapper p{
+  text-align: justify;
+}
+
+.wrapper .media-icons a:hover{
+  border-color: #ab76ff;
+}
+.bottom{
+  width: 100%;
+  text-align: right;
+  color: black;
+  padding: 0 40px 5px 0;
+}
+.bottom a{
+  color: #ab76ff;
+}
+.footer a{
+  transition: all 0.3s ease;
+}
+.footer a:hover{
+  color: #ab76ff;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
 /*responsive*/
-  .menu-icon {
-    color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
-  }
-
-footer img {
-  width: 125px;
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+.top-wrapper h1 {
+ font-size: 25px;
 }
 
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+.col {
+ width: 50%;
+ margin-bottom: 50px;
 }
 
+.heading h2 {
+ font-size: 20px;
+}
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+.header-right {
+  display: none;
+}
+
+.menu-icon {
+  display: block;
+}
+
+.top-wrapper h1 {
+  font-size: 24px;
+  text-align: left;
+  line-height: 36px;
+}
+
+.top-wrapper p {
+  font-size: 14px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.facebook {
+  margin-bottom: 10px;
+}
+.btn {
+width: 100%;
+}
+.btn-wrapper {
+ text-align: center;
+}
+
+.top-wrapper {
+ text-align: left;
+}
+.col {
+ width: 100%;
+}
+.body {
+flex-direction: column;
+}
+}
+
+section{
+  display: block;
+}
+
+section img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
