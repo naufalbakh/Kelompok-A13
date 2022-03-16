@@ -1,7 +1,10 @@
-/* Mulai code Anda dari baris terakhir */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
 html,
@@ -50,14 +53,14 @@ a {
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
+  /* opacity: 0.7; */
   font-size: 45px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
+  opacity: 0.8;
   margin-bottom: 4px;
   font-size: 18px;
 }
@@ -151,7 +154,7 @@ header {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   border-radius: 8px;
-  margin: 450px 20px 20px 20px;
+  margin: 420px 20px 20px 20px;
   background-color: white;
 }
 
@@ -169,19 +172,21 @@ header {
 }
 
 button {
-  background-color: orange;
-  padding: 15px;
-  border-radius: 20px;
-  border-color: grey;
+  background-color: #00796b;
+  border-radius: 15px;
+  font-family: "Poppins";
+  color: white;
+  background: #00796b;
+  text-align: center;
+  padding: 10px 24px;
 }
 
- .menu-icon {
-      color: white;
-      float: right;
-      font-size: 25px;
-      padding: 21px 0;
-      display: none;
-    }
+button a:hover{
+  background-color: #00534a;
+  box-shadow: 0px 5px 10px rgb(41, 53, 61);
+  transition: 1s;
+  cursor: pointer;
+}
 
 main {
   padding-top: 70px;
@@ -244,10 +249,25 @@ li:hover {
   background: #00796b;
   text-align: center;
   padding: 10px 24px;
+  border-radius: 45px;
+  background-color: rgb(21, 22, 22);
+  animation-name: pesan;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pesan {
+  0%   {background-color: rgb(21, 22, 22);}
+  20%  {background-color: #2f7772;}
+  40%  {background-color: rgb(21, 22, 22);}
+  60% {background-color: #2f7772;}
+  80%  {background-color: rgb(21, 22, 22);}
 }
 
 .card-action a:hover {
   background-color: #00534a;
+  box-shadow: 0px 5px 10px rgb(41, 53, 61);
   transition: 1s;
 }
 
@@ -285,8 +305,9 @@ li:hover {
 }
 
 #contact {
-  background: #dedede;
+  background: #ffffff;
   padding: 50px 0px;
+  width: 100%;
 }
 
 .footer {
@@ -302,18 +323,20 @@ li:hover {
 
 .footer-section {
   width: 20%;
-  margin: 0 auto; /*Auto, emmbawa konten ke center*/
+  margin: 0 auto;
+  padding-bottom: 25px;
+  padding-right: 10px;
 }
 
-.footer-section h3{
+.footer-section h3 {
   color: white;
 }
 
-.footer-section p{
+.footer-section p {
   color: white;
 }
 
-.wrapper{
+.wrapper {
   max-width: 1350px;
   margin: auto;
   padding: 20px;
@@ -322,48 +345,58 @@ li:hover {
   justify-content: space-between;
 }
 
-.footer .wrapper p,a{
+.footer .wrapper p,
+a {
   color: #fff;
 }
-.footer .wrapper .box{
-  width: 33%;
-  transition: all 0.4s ease;
-}
-.footer .wrapper .topic{
-  font-size: 22px;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 16px;
 
-}
-.footer .wrapper p{
+.footer .wrapper p {
   text-align: justify;
 }
 
-.wrapper .media-icons a:hover{
-  border-color: #ab76ff;
+.wrapper .media-icons {
+  padding-top: 10px;
 }
-.bottom{
+
+.wrapper .media-icons a:hover {
+  border-color: #55d6ce;
+}
+
+.bottom {
   width: 100%;
-  text-align: right;
+  text-align: center;
   color: black;
   padding: 0 40px 5px 0;
 }
-.bottom a{
-  color: #ab76ff;
+
+.bottom span {
+  color: #ff2020;
 }
-.footer a{
+
+.btn-send {
+  font-family: "Poppins";
+  padding: 4px;
+  background-color: white;
+}
+
+.txt-mail {
+  font-family: "Poppins";
+  padding: 4px;
+  background-color: white;
+}
+
+.btn-send a:hover {
+  background-color: #55d6ce;
+}
+
+.bottom a {
+  color: black;
+}
+
+.footer a {
   transition: all 0.3s ease;
 }
-.footer a:hover{
-  color: #ab76ff;
-} */
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
+.footer a:hover {
+  color: #55d6ce;
 }
