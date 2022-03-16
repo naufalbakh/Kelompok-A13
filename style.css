@@ -286,6 +286,7 @@ li:hover {
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  padding: 25px;
   margin: auto;
   text-align: center;
   background: #2f7772;
@@ -358,4 +359,3 @@ li:hover {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
-
