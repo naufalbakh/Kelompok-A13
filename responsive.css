@@ -1,62 +1,62 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
- .top-wrapper h1 {
-   font-size: 25px;
- }
-
- .col {
-   width: 50%;
-   margin-bottom: 50px;
- }
-
- .heading h2 {
-   font-size: 20px;
- }
-}
-
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
   .top-wrapper h1 {
-    font-size: 24px;
-    text-align: left;
-    line-height: 36px;
+    font-size: 25px;
   }
-
-  .top-wrapper p {
-    font-size: 14px;
-    text-align: left;
-    line-height: 20px;
+ 
+  .col {
+    width: 50%;
+    margin-bottom: 50px;
   }
-
-  .facebook {
-    margin-bottom: 10px;
+ 
+  .heading h2 {
+    font-size: 20px;
   }
-  .btn {
-  width: 100%;
-}
-  .btn-wrapper {
-   text-align: center;
  }
-
- .top-wrapper {
-   text-align: left;
- }
- .col {
+ 
+ /* Untuk Smartphone */
+ @media all and (max-width: 670px) {
+   .header-right {
+     display: none;
+   }
+ 
+   .menu-icon {
+     display: block;
+   }
+ 
+   .top-wrapper h1 {
+     font-size: 24px;
+     text-align: left;
+     line-height: 36px;
+   }
+ 
+   .top-wrapper p {
+     font-size: 14px;
+     text-align: left;
+     line-height: 20px;
+   }
+ 
+   .facebook {
+     margin-bottom: 10px;
+   }
+   .btn {
    width: 100%;
  }
-  
-  .body {
-  flex-direction: column;
- }
- footer {
+   .btn-wrapper {
     text-align: center;
-}
-}
+  }
+ 
+  .top-wrapper {
+    text-align: left;
+  }
+  .col {
+    width: 100%;
+  }
+   
+   .body {
+   flex-direction: column;
+  }
+  footer {
+     text-align: center;
+ }
+ }
