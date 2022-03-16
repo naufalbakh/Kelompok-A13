@@ -208,14 +208,10 @@ li:hover {
 .col {
   float: left;
   width: 33.3333333333%;
+  border-radius: 6px;
   margin-left: auto;
   left: auto;
   right: auto;
-}
-
-.col :hover{
-  box-shadow: 0 4px 8px 0 rgba(27, 27, 27, 0.5);
-  transition: 5s;
 }
 
 .card-title {
@@ -238,8 +234,15 @@ li:hover {
   text-align: center;
   padding: 10px 24px;
 }
+
+.card-action a:hover{
+  background-color: #00534a;
+  transition: 1s;
+}
+
 .card-medium {
   height: fit-content;
+  box-shadow: 0 2px 4px 0 rgba(27, 27, 27, 0.5);
   font-family: "Poppins";
   position: relative;
   border-radius: 6px;
